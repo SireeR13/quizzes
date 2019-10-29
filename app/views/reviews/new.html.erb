@@ -1,0 +1,7 @@
+<h1>Reviews</h1>
+<%= simple_form_for @review do |f| %>
+  <%= f.input :name %>
+  <%= f.input :comment %>
+  <br />
+  <%= f.submit 'Submit', class: 'btn btn-danger' %>
+<% end %>
